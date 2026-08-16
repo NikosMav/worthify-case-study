@@ -3,7 +3,6 @@
 AI-driven used-car valuation prototype created for the first Greek AI Hackathon, powered by ACEin at the Athens University of Economics and Business.
 
 - **Project period:** November 2023 – May 2024
-- **My role:** Frontend Developer
 - **Status:** Completed hackathon prototype; the original service is no longer live
 
 [![Worthify marketing landing page](assets/marketing-landing-page.png)](https://www.youtube.com/watch?v=8UKhzsqAUYs)
@@ -78,10 +77,6 @@ flowchart LR
   Estimate --> Web
   Forecast --> Web
 ```
-
-## My contribution
-
-I worked on the frontend prototype: the user journey, vehicle-input forms, API integration, and the presentation of valuation and forecasting results. The interface used React with Chart.js and Leaflet-based visualizations.
 
 ## What the project demonstrated
 
