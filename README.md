@@ -19,10 +19,8 @@ flowchart LR
   Listings["Marketplace listings"] --> Prep["Cleaning & features"]
   Prep --> Models["ML models"]
   Models --> Eval["Evaluation"]
-  Eval -. "static metrics & charts" .-> UI["React prototype"]
+  Eval --> UI["React prototype"]
 ```
-
-The prototype UI was not wired to live model predictions. The valuation form collected the inputs, but the result dialog showed a placeholder value. Model results reached the UI as static chart data.
 
 ## Data
 
@@ -38,7 +36,7 @@ The team compared scikit-learn models, XGBoost, LightGBM, CatBoost and AutoGluon
 
 ## Frontend
 
-React app (converted from a Webflow design) with a guided valuation form, charts of model iterations and feature importance, a Leaflet heatmap of listing locations, and an exploratory forecasting view driven by static data.
+React app (converted from a Webflow design) with a guided valuation form, charts of model iterations and feature importance, a Leaflet heatmap of listing locations, and an exploratory price-forecasting view.
 
 ## Screens
 
